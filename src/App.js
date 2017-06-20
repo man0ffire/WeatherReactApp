@@ -7,8 +7,11 @@ class App extends Component {
   render() {
     return (
       <div className='container'>
-          <SearchBar />
-          <WeatherList />
+        <div class="page-header">
+          <h1>Weather Search <small>Search for your favorite city and get a five day visual forecast</small></h1>
+        </div>
+        <SearchBar />
+        <WeatherList />
       </div>
     );
   }
